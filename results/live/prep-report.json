@@ -1,0 +1,9 @@
+{
+ "C1_request_text_mismatches": [],
+ "C2_completion_rule_mismatches": [],
+ "C3_distinct_task_lines": [
+  "Task: retrieve customer record C-042. tool_alpha and tool_beta expose the same read-only record API. Return exactly one listed action label and no other text."
+ ],
+ "n_specs": 81,
+ "anon_seed": 20261106
+}

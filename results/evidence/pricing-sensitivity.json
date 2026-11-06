@@ -1,0 +1,111 @@
+{
+ "description": "Penalty-constant sensitivity of the paper's regret contrasts, repriced from the retained decisions of the authors' frozen archive. Frozen rules: route cost = latency_EWMA + P x failure_rate + P x [circuit=OPEN]; observable-best re-selected under the same P for every decision; the wait rule is NOT rescaled (wait regret = 500 + 10,000 - best_P). Completion counts come from recorded outcomes and do not depend on P.",
+ "source": "code/offline-audit/scripts/offline_audit.py (Step 2); table form: results/offline/regret-sensitivity-table.md",
+ "penalty_levels_ms": [
+  10000,
+  5000,
+  1000
+ ],
+ "study1": {
+  "n_decisions": 216,
+  "completions_pricing_invariant": {
+   "A": [
+    47,
+    72
+   ],
+   "B": [
+    50,
+    72
+   ],
+   "C": [
+    69,
+    72
+   ]
+  },
+  "by_penalty_ms": {
+   "10000": {
+    "mean_regret_ms": {
+     "A": 4826.447793209877,
+     "B": 4251.542592592593,
+     "C": 131.11902777777777
+    },
+    "B_to_C_reduction_pct": 96.91596579542153,
+    "A_to_C_reduction_pct": 97.28332236469555
+   },
+   "5000": {
+    "mean_regret_ms": {
+     "A": 2839.5650771604937,
+     "B": 2503.857407407407,
+     "C": 256.1190277777778
+    },
+    "B_to_C_reduction_pct": 89.77102182336439,
+    "A_to_C_reduction_pct": 90.98034308712194
+   },
+   "1000": {
+    "mean_regret_ms": {
+     "A": 1250.0589043209877,
+     "B": 1105.7092592592594,
+     "C": 356.1190277777778
+    },
+    "B_to_C_reduction_pct": 67.79270637415569,
+    "A_to_C_reduction_pct": 71.51182023928577
+   }
+  }
+ },
+ "study2": {
+  "n_decisions": 27,
+  "completions_pricing_invariant": {
+   "A": [
+    6,
+    9
+   ],
+   "B": [
+    5,
+    9
+   ],
+   "C": [
+    9,
+    9
+   ]
+  },
+  "by_penalty_ms": {
+   "10000": {
+    "mean_regret_ms": {
+     "A": 6734.303333333333,
+     "B": 8956.366666666667,
+     "C": 0.0
+    },
+    "B_to_C_reduction_pct": 100.0,
+    "A_to_C_reduction_pct": 100.0
+   },
+   "5000": {
+    "mean_regret_ms": {
+     "A": 3400.97,
+     "B": 4511.922222222222,
+     "C": 0.0
+    },
+    "B_to_C_reduction_pct": 100.0,
+    "A_to_C_reduction_pct": 100.0
+   },
+   "1000": {
+    "mean_regret_ms": {
+     "A": 734.3033333333334,
+     "B": 956.3666666666667,
+     "C": 0.0
+    },
+    "B_to_C_reduction_pct": 100.0,
+    "A_to_C_reduction_pct": 100.0
+   }
+  },
+  "absolute_B_minus_C_gap_ms": {
+   "10000": 8956.366666666667,
+   "5000": 4511.922222222222,
+   "1000": 956.3666666666667
+  }
+ },
+ "notes": [
+  "Study 1 B-to-C reduction: 96.9% at P=10,000 -> 89.8% at 5,000 -> 67.8% at 1,000; about 29 percentage points of the headline are penalty pricing, the majority of the contrast survives all three pricings.",
+  "Study 1 arm C mean regret RISES as P falls (131.12 -> 256.12 -> 356.12 ms): C's entire residual regret is its 3 wait decisions, scored by the frozen wait rule 10,500 - best_P, which grows as best_P shrinks.",
+  "Study 2 arm C is exactly 0 at all three pricings, so the percentage reduction is degenerate (100% throughout, uninformative); the absolute B-C gap is reported instead: 8,956.37 -> 4,511.92 -> 956.37 ms."
+ ]
+}

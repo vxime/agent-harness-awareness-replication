@@ -1,0 +1,3093 @@
+{
+ "meta": {
+  "model_label": "gpt-6-luna",
+  "max_completion_tokens": 1024,
+  "temperature": "unset (gateway default)",
+  "started_at": "2026-11-06T07:59:55.554363+00:00",
+  "stopped_reason": null,
+  "completed": 81,
+  "finished_at": "2026-11-06T08:03:22.445724+00:00",
+  "endpoint": "an OpenAI-compatible gateway endpoint (URL omitted)",
+  "note": "Prompt texts are not redistributed: they are the archived Study 2 provider requests from the authors' public archive, reproducible with code/live-l2/scripts/prep_specs.py. All other per-call fields are verbatim."
+ },
+ "records": [
+  {
+   "seq": 1,
+   "treatment": "REP",
+   "regime": "connection_error",
+   "arm": "A",
+   "rep": 0,
+   "instance_dir": "20260831T185235.345174Z-connection_error-e4b927073af3402e8572f05724d42cba",
+   "episode_id": "sonnet-05-connection-a",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 20004.16,
+   "completion": false,
+   "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 30,
+    "total_tokens": 79
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T07:59:55.554764+00:00",
+   "error": null
+  },
+  {
+   "seq": 2,
+   "treatment": "REP",
+   "regime": "connection_error",
+   "arm": "A",
+   "rep": 1,
+   "instance_dir": "20260831T185215.335422Z-connection_error-be2ea017e0374a65bd9fac96c71e2476",
+   "episode_id": "gemini-04-connection-a",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 65,
+    "total_tokens": 114
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T07:59:58.071140+00:00",
+   "error": null
+  },
+  {
+   "seq": 3,
+   "treatment": "REP",
+   "regime": "connection_error",
+   "arm": "A",
+   "rep": 2,
+   "instance_dir": "20260831T184616.873165Z-connection_error-578364c68f7944e3961f3b703ab79e90",
+   "episode_id": "gpt-01-connection-a",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 48,
+    "total_tokens": 97
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:00.773620+00:00",
+   "error": null
+  },
+  {
+   "seq": 4,
+   "treatment": "REP",
+   "regime": "connection_error",
+   "arm": "B",
+   "rep": 0,
+   "instance_dir": "20260831T185819.396650Z-connection_error-eab1f93ae04c4b278e371411bd482af1",
+   "episode_id": "sonnet-08-connection-b",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 20001.53,
+   "completion": false,
+   "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 28,
+    "total_tokens": 331
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:03.325560+00:00",
+   "error": null
+  },
+  {
+   "seq": 5,
+   "treatment": "REP",
+   "regime": "connection_error",
+   "arm": "B",
+   "rep": 1,
+   "instance_dir": "20260831T185809.583525Z-connection_error-703ed0cd4ba34609b23476c28e4787db",
+   "episode_id": "gemini-07-connection-b",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 40,
+    "total_tokens": 343
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:05.828691+00:00",
+   "error": null
+  },
+  {
+   "seq": 6,
+   "treatment": "REP",
+   "regime": "connection_error",
+   "arm": "B",
+   "rep": 2,
+   "instance_dir": "20260831T185822.205654Z-connection_error-99d41c9b2bfb4dfdab9e3d8c5cab42f7",
+   "episode_id": "gpt-07-connection-b",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 39,
+    "total_tokens": 342
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:08.419001+00:00",
+   "error": null
+  },
+  {
+   "seq": 7,
+   "treatment": "REP",
+   "regime": "connection_error",
+   "arm": "C",
+   "rep": 0,
+   "instance_dir": "20260831T184611.526635Z-connection_error-818d4d5faaf040339c586d32bda3bfd9",
+   "episode_id": "sonnet-02-connection-c",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_beta",
+   "chosen_label": "tool_beta",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 305,
+    "completion_tokens": 6,
+    "total_tokens": 311
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:11.342844+00:00",
+   "error": null
+  },
+  {
+   "seq": 8,
+   "treatment": "REP",
+   "regime": "connection_error",
+   "arm": "C",
+   "rep": 1,
+   "instance_dir": "20260831T184132.820730Z-connection_error-5236d441c7a84f339f276b9342b5c2c2",
+   "episode_id": "gemini-00-connection-c",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 304,
+    "completion_tokens": 24,
+    "total_tokens": 328
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:12.798063+00:00",
+   "error": null
+  },
+  {
+   "seq": 9,
+   "treatment": "REP",
+   "regime": "connection_error",
+   "arm": "C",
+   "rep": 2,
+   "instance_dir": "20260831T185245.321702Z-connection_error-da14b322da5e4acbb51fd056d16126e9",
+   "episode_id": "gpt-04-connection-c",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 6,
+    "total_tokens": 309
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:15.324349+00:00",
+   "error": null
+  },
+  {
+   "seq": 10,
+   "treatment": "REP",
+   "regime": "http_error",
+   "arm": "A",
+   "rep": 0,
+   "instance_dir": "20260831T184605.590061Z-http_error-a7a95ce1bc094467a17939e9e48c0333",
+   "episode_id": "sonnet-01-http-a",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 30,
+    "total_tokens": 79
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:17.208116+00:00",
+   "error": null
+  },
+  {
+   "seq": 11,
+   "treatment": "REP",
+   "regime": "http_error",
+   "arm": "A",
+   "rep": 1,
+   "instance_dir": "20260831T185812.843948Z-http_error-7582e370cae04de1800c2b2c8c204202",
+   "episode_id": "gemini-08-http-a",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 20000.46,
+   "completion": false,
+   "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 42,
+    "total_tokens": 91
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:19.213205+00:00",
+   "error": null
+  },
+  {
+   "seq": 12,
+   "treatment": "REP",
+   "regime": "http_error",
+   "arm": "A",
+   "rep": 2,
+   "instance_dir": "20260831T185242.556137Z-http_error-4a26be8c1f1544cdae4e3f81901a3202",
+   "episode_id": "gpt-03-http-a",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 20000.399999999998,
+   "completion": false,
+   "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 27,
+    "total_tokens": 76
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:21.391197+00:00",
+   "error": null
+  },
+  {
+   "seq": 13,
+   "treatment": "REP",
+   "regime": "http_error",
+   "arm": "B",
+   "rep": 0,
+   "instance_dir": "20260831T185232.053229Z-http_error-9264bf3bbaba4fcca965e7e3439d2b1f",
+   "episode_id": "sonnet-04-http-b",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 51,
+    "total_tokens": 354
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:23.287320+00:00",
+   "error": null
+  },
+  {
+   "seq": 14,
+   "treatment": "REP",
+   "regime": "http_error",
+   "arm": "B",
+   "rep": 1,
+   "instance_dir": "20260831T184600.801008Z-http_error-23620c91881c439e9e1d4896355b5327",
+   "episode_id": "gemini-02-http-b",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 20000.530000000002,
+   "completion": false,
+   "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 52,
+    "total_tokens": 355
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:25.798202+00:00",
+   "error": null
+  },
+  {
+   "seq": 15,
+   "treatment": "REP",
+   "regime": "http_error",
+   "arm": "B",
+   "rep": 2,
+   "instance_dir": "20260831T185253.254475Z-http_error-cd809250caf34184b505f86887f82927",
+   "episode_id": "gpt-06-http-b",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 20000.7,
+   "completion": false,
+   "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 43,
+    "total_tokens": 346
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:28.431164+00:00",
+   "error": null
+  },
+  {
+   "seq": 16,
+   "treatment": "REP",
+   "regime": "http_error",
+   "arm": "C",
+   "rep": 0,
+   "instance_dir": "20260831T185816.622740Z-http_error-b98e37d0b56f4206aac441219446b89d",
+   "episode_id": "sonnet-07-http-c",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 304,
+    "completion_tokens": 6,
+    "total_tokens": 310
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:30.635375+00:00",
+   "error": null
+  },
+  {
+   "seq": 17,
+   "treatment": "REP",
+   "regime": "http_error",
+   "arm": "C",
+   "rep": 1,
+   "instance_dir": "20260831T185218.607392Z-http_error-35372e0e87ee472a9850ac0588b2e10e",
+   "episode_id": "gemini-05-http-c",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_beta",
+   "chosen_label": "tool_beta",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 305,
+    "completion_tokens": 6,
+    "total_tokens": 311
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:32.936263+00:00",
+   "error": null
+  },
+  {
+   "seq": 18,
+   "treatment": "REP",
+   "regime": "http_error",
+   "arm": "C",
+   "rep": 2,
+   "instance_dir": "20260831T184157.428498Z-http_error-e2e4359e72b54e558050c9770c424b58",
+   "episode_id": "gpt-00-http-c",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_beta",
+   "chosen_label": "tool_beta",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 6,
+    "total_tokens": 309
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:35.075286+00:00",
+   "error": null
+  },
+  {
+   "seq": 19,
+   "treatment": "REP",
+   "regime": "latency",
+   "arm": "A",
+   "rep": 0,
+   "instance_dir": "20260831T185238.137325Z-latency-88d42ef619e346edb71a61b76e4e1645",
+   "episode_id": "sonnet-06-latency-a",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 48,
+    "total_tokens": 97
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:38.452432+00:00",
+   "error": null
+  },
+  {
+   "seq": 20,
+   "treatment": "REP",
+   "regime": "latency",
+   "arm": "A",
+   "rep": 1,
+   "instance_dir": "20260831T184553.940023Z-latency-2464acdcf64d403dbdcc5db70bc4cdcd",
+   "episode_id": "gemini-01-latency-a",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 301.2,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 43,
+    "total_tokens": 92
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:42.239323+00:00",
+   "error": null
+  },
+  {
+   "seq": 21,
+   "treatment": "REP",
+   "regime": "latency",
+   "arm": "A",
+   "rep": 2,
+   "instance_dir": "20260831T185248.573128Z-latency-456d4b6585d24291ba691b8bc0a64b55",
+   "episode_id": "gpt-05-latency-a",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 302.51000000000005,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 32,
+    "total_tokens": 81
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:44.496399+00:00",
+   "error": null
+  },
+  {
+   "seq": 22,
+   "treatment": "REP",
+   "regime": "latency",
+   "arm": "B",
+   "rep": 0,
+   "instance_dir": "20260831T184142.328270Z-latency-1097de72c93342fe96468c969577f7ee",
+   "episode_id": "sonnet-00-latency-b",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 306,
+    "completion_tokens": 31,
+    "total_tokens": 337
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:46.394583+00:00",
+   "error": null
+  },
+  {
+   "seq": 23,
+   "treatment": "REP",
+   "regime": "latency",
+   "arm": "B",
+   "rep": 1,
+   "instance_dir": "20260831T185221.473441Z-latency-bb2001aa71bd472a80a2b63725e4e0a5",
+   "episode_id": "gemini-06-latency-b",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 301.21999999999997,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 302,
+    "completion_tokens": 42,
+    "total_tokens": 344
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:52.763403+00:00",
+   "error": null
+  },
+  {
+   "seq": 24,
+   "treatment": "REP",
+   "regime": "latency",
+   "arm": "B",
+   "rep": 2,
+   "instance_dir": "20260831T184622.974919Z-latency-253670f892fe43db92615d8474c66d32",
+   "episode_id": "gpt-02-latency-b",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 302.23,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 304,
+    "completion_tokens": 45,
+    "total_tokens": 349
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:55.139460+00:00",
+   "error": null
+  },
+  {
+   "seq": 25,
+   "treatment": "REP",
+   "regime": "latency",
+   "arm": "C",
+   "rep": 0,
+   "instance_dir": "20260831T185227.654647Z-latency-c56bb3e117684eba938586f50235c060",
+   "episode_id": "sonnet-03-latency-c",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 301,
+    "completion_tokens": 23,
+    "total_tokens": 324
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:58.153439+00:00",
+   "error": null
+  },
+  {
+   "seq": 26,
+   "treatment": "REP",
+   "regime": "latency",
+   "arm": "C",
+   "rep": 1,
+   "instance_dir": "20260831T185211.922194Z-latency-9df8fd11d36c45f89f6869f4c2642ff2",
+   "episode_id": "gemini-03-latency-c",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_beta",
+   "chosen_label": "tool_beta",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 302,
+    "completion_tokens": 38,
+    "total_tokens": 340
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:00:59.705477+00:00",
+   "error": null
+  },
+  {
+   "seq": 27,
+   "treatment": "REP",
+   "regime": "latency",
+   "arm": "C",
+   "rep": 2,
+   "instance_dir": "20260831T185825.967808Z-latency-15022b4bff0241de99e22db72cf2d1e0",
+   "episode_id": "gpt-08-latency-c",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_alpha",
+    "tool_beta": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_beta",
+   "chosen_label": "tool_beta",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 302,
+    "completion_tokens": 6,
+    "total_tokens": 308
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:02.167718+00:00",
+   "error": null
+  },
+  {
+   "seq": 28,
+   "treatment": "SWAP",
+   "regime": "connection_error",
+   "arm": "A",
+   "rep": 0,
+   "instance_dir": "20260831T185235.345174Z-connection_error-e4b927073af3402e8572f05724d42cba",
+   "episode_id": "sonnet-05-connection-a",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 37,
+    "total_tokens": 86
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:05.051684+00:00",
+   "error": null
+  },
+  {
+   "seq": 29,
+   "treatment": "SWAP",
+   "regime": "connection_error",
+   "arm": "A",
+   "rep": 1,
+   "instance_dir": "20260831T185215.335422Z-connection_error-be2ea017e0374a65bd9fac96c71e2476",
+   "episode_id": "gemini-04-connection-a",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 20003.879999999997,
+   "completion": false,
+   "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 34,
+    "total_tokens": 83
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:07.172698+00:00",
+   "error": null
+  },
+  {
+   "seq": 30,
+   "treatment": "SWAP",
+   "regime": "connection_error",
+   "arm": "A",
+   "rep": 2,
+   "instance_dir": "20260831T184616.873165Z-connection_error-578364c68f7944e3961f3b703ab79e90",
+   "episode_id": "gpt-01-connection-a",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 20003.27,
+   "completion": false,
+   "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 42,
+    "total_tokens": 91
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:09.099646+00:00",
+   "error": null
+  },
+  {
+   "seq": 31,
+   "treatment": "SWAP",
+   "regime": "connection_error",
+   "arm": "B",
+   "rep": 0,
+   "instance_dir": "20260831T185819.396650Z-connection_error-eab1f93ae04c4b278e371411bd482af1",
+   "episode_id": "sonnet-08-connection-b",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 31,
+    "total_tokens": 334
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:11.479267+00:00",
+   "error": null
+  },
+  {
+   "seq": 32,
+   "treatment": "SWAP",
+   "regime": "connection_error",
+   "arm": "B",
+   "rep": 1,
+   "instance_dir": "20260831T185809.583525Z-connection_error-703ed0cd4ba34609b23476c28e4787db",
+   "episode_id": "gemini-07-connection-b",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_beta",
+   "chosen_label": "tool_beta",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 69,
+    "total_tokens": 372
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:13.858973+00:00",
+   "error": null
+  },
+  {
+   "seq": 33,
+   "treatment": "SWAP",
+   "regime": "connection_error",
+   "arm": "B",
+   "rep": 2,
+   "instance_dir": "20260831T185822.205654Z-connection_error-99d41c9b2bfb4dfdab9e3d8c5cab42f7",
+   "episode_id": "gpt-07-connection-b",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_beta",
+   "chosen_label": "tool_beta",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 57,
+    "total_tokens": 360
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:16.318714+00:00",
+   "error": null
+  },
+  {
+   "seq": 34,
+   "treatment": "SWAP",
+   "regime": "connection_error",
+   "arm": "C",
+   "rep": 0,
+   "instance_dir": "20260831T184611.526635Z-connection_error-818d4d5faaf040339c586d32bda3bfd9",
+   "episode_id": "sonnet-02-connection-c",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 305,
+    "completion_tokens": 6,
+    "total_tokens": 311
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:18.640640+00:00",
+   "error": null
+  },
+  {
+   "seq": 35,
+   "treatment": "SWAP",
+   "regime": "connection_error",
+   "arm": "C",
+   "rep": 1,
+   "instance_dir": "20260831T184132.820730Z-connection_error-5236d441c7a84f339f276b9342b5c2c2",
+   "episode_id": "gemini-00-connection-c",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_beta",
+   "chosen_label": "tool_beta",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 304,
+    "completion_tokens": 22,
+    "total_tokens": 326
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:20.028820+00:00",
+   "error": null
+  },
+  {
+   "seq": 36,
+   "treatment": "SWAP",
+   "regime": "connection_error",
+   "arm": "C",
+   "rep": 2,
+   "instance_dir": "20260831T185245.321702Z-connection_error-da14b322da5e4acbb51fd056d16126e9",
+   "episode_id": "gpt-04-connection-c",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_beta",
+   "chosen_label": "tool_beta",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 6,
+    "total_tokens": 309
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:23.033208+00:00",
+   "error": null
+  },
+  {
+   "seq": 37,
+   "treatment": "SWAP",
+   "regime": "http_error",
+   "arm": "A",
+   "rep": 0,
+   "instance_dir": "20260831T184605.590061Z-http_error-a7a95ce1bc094467a17939e9e48c0333",
+   "episode_id": "sonnet-01-http-a",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 19999.55,
+   "completion": false,
+   "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 55,
+    "total_tokens": 104
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:24.316859+00:00",
+   "error": null
+  },
+  {
+   "seq": 38,
+   "treatment": "SWAP",
+   "regime": "http_error",
+   "arm": "A",
+   "rep": 1,
+   "instance_dir": "20260831T185812.843948Z-http_error-7582e370cae04de1800c2b2c8c204202",
+   "episode_id": "gemini-08-http-a",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 53,
+    "total_tokens": 102
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:26.398380+00:00",
+   "error": null
+  },
+  {
+   "seq": 39,
+   "treatment": "SWAP",
+   "regime": "http_error",
+   "arm": "A",
+   "rep": 2,
+   "instance_dir": "20260831T185242.556137Z-http_error-4a26be8c1f1544cdae4e3f81901a3202",
+   "episode_id": "gpt-03-http-a",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 29,
+    "total_tokens": 78
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:28.934159+00:00",
+   "error": null
+  },
+  {
+   "seq": 40,
+   "treatment": "SWAP",
+   "regime": "http_error",
+   "arm": "B",
+   "rep": 0,
+   "instance_dir": "20260831T185232.053229Z-http_error-9264bf3bbaba4fcca965e7e3439d2b1f",
+   "episode_id": "sonnet-04-http-b",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 19999.61,
+   "completion": false,
+   "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 54,
+    "total_tokens": 357
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:31.571191+00:00",
+   "error": null
+  },
+  {
+   "seq": 41,
+   "treatment": "SWAP",
+   "regime": "http_error",
+   "arm": "B",
+   "rep": 1,
+   "instance_dir": "20260831T184600.801008Z-http_error-23620c91881c439e9e1d4896355b5327",
+   "episode_id": "gemini-02-http-b",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 80,
+    "total_tokens": 383
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:33.794216+00:00",
+   "error": null
+  },
+  {
+   "seq": 42,
+   "treatment": "SWAP",
+   "regime": "http_error",
+   "arm": "B",
+   "rep": 2,
+   "instance_dir": "20260831T185253.254475Z-http_error-cd809250caf34184b505f86887f82927",
+   "episode_id": "gpt-06-http-b",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 46,
+    "total_tokens": 349
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:36.444129+00:00",
+   "error": null
+  },
+  {
+   "seq": 43,
+   "treatment": "SWAP",
+   "regime": "http_error",
+   "arm": "C",
+   "rep": 0,
+   "instance_dir": "20260831T185816.622740Z-http_error-b98e37d0b56f4206aac441219446b89d",
+   "episode_id": "sonnet-07-http-c",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_beta",
+   "chosen_label": "tool_beta",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 304,
+    "completion_tokens": 22,
+    "total_tokens": 326
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:38.447350+00:00",
+   "error": null
+  },
+  {
+   "seq": 44,
+   "treatment": "SWAP",
+   "regime": "http_error",
+   "arm": "C",
+   "rep": 1,
+   "instance_dir": "20260831T185218.607392Z-http_error-35372e0e87ee472a9850ac0588b2e10e",
+   "episode_id": "gemini-05-http-c",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_beta",
+    "tool_alpha",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 305,
+    "completion_tokens": 21,
+    "total_tokens": 326
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:39.955260+00:00",
+   "error": null
+  },
+  {
+   "seq": 45,
+   "treatment": "SWAP",
+   "regime": "http_error",
+   "arm": "C",
+   "rep": 2,
+   "instance_dir": "20260831T184157.428498Z-http_error-e2e4359e72b54e558050c9770c424b58",
+   "episode_id": "gpt-00-http-c",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 303,
+    "completion_tokens": 22,
+    "total_tokens": 325
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:41.601464+00:00",
+   "error": null
+  },
+  {
+   "seq": 46,
+   "treatment": "SWAP",
+   "regime": "latency",
+   "arm": "A",
+   "rep": 0,
+   "instance_dir": "20260831T185238.137325Z-latency-88d42ef619e346edb71a61b76e4e1645",
+   "episode_id": "sonnet-06-latency-a",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 301.84,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 41,
+    "total_tokens": 90
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:44.741702+00:00",
+   "error": null
+  },
+  {
+   "seq": 47,
+   "treatment": "SWAP",
+   "regime": "latency",
+   "arm": "A",
+   "rep": 1,
+   "instance_dir": "20260831T184553.940023Z-latency-2464acdcf64d403dbdcc5db70bc4cdcd",
+   "episode_id": "gemini-01-latency-a",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 55,
+    "total_tokens": 104
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:48.157461+00:00",
+   "error": null
+  },
+  {
+   "seq": 48,
+   "treatment": "SWAP",
+   "regime": "latency",
+   "arm": "A",
+   "rep": 2,
+   "instance_dir": "20260831T185248.573128Z-latency-456d4b6585d24291ba691b8bc0a64b55",
+   "episode_id": "gpt-05-latency-a",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 49,
+    "completion_tokens": 66,
+    "total_tokens": 115
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:51.188392+00:00",
+   "error": null
+  },
+  {
+   "seq": 49,
+   "treatment": "SWAP",
+   "regime": "latency",
+   "arm": "B",
+   "rep": 0,
+   "instance_dir": "20260831T184142.328270Z-latency-1097de72c93342fe96468c969577f7ee",
+   "episode_id": "sonnet-00-latency-b",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 302.23,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 306,
+    "completion_tokens": 52,
+    "total_tokens": 358
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:55.224444+00:00",
+   "error": null
+  },
+  {
+   "seq": 50,
+   "treatment": "SWAP",
+   "regime": "latency",
+   "arm": "B",
+   "rep": 1,
+   "instance_dir": "20260831T185221.473441Z-latency-bb2001aa71bd472a80a2b63725e4e0a5",
+   "episode_id": "gemini-06-latency-b",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 302,
+    "completion_tokens": 78,
+    "total_tokens": 380
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:01:57.530576+00:00",
+   "error": null
+  },
+  {
+   "seq": 51,
+   "treatment": "SWAP",
+   "regime": "latency",
+   "arm": "B",
+   "rep": 2,
+   "instance_dir": "20260831T184622.974919Z-latency-253670f892fe43db92615d8474c66d32",
+   "episode_id": "gpt-02-latency-b",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 304,
+    "completion_tokens": 39,
+    "total_tokens": 343
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:02:01.602320+00:00",
+   "error": null
+  },
+  {
+   "seq": 52,
+   "treatment": "SWAP",
+   "regime": "latency",
+   "arm": "C",
+   "rep": 0,
+   "instance_dir": "20260831T185227.654647Z-latency-c56bb3e117684eba938586f50235c060",
+   "episode_id": "sonnet-03-latency-c",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_beta",
+   "chosen_label": "tool_beta",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 301,
+    "completion_tokens": 23,
+    "total_tokens": 324
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:02:03.614354+00:00",
+   "error": null
+  },
+  {
+   "seq": 53,
+   "treatment": "SWAP",
+   "regime": "latency",
+   "arm": "C",
+   "rep": 1,
+   "instance_dir": "20260831T185211.922194Z-latency-9df8fd11d36c45f89f6869f4c2642ff2",
+   "episode_id": "gemini-03-latency-c",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 302,
+    "completion_tokens": 27,
+    "total_tokens": 329
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:02:06.097558+00:00",
+   "error": null
+  },
+  {
+   "seq": 54,
+   "treatment": "SWAP",
+   "regime": "latency",
+   "arm": "C",
+   "rep": 2,
+   "instance_dir": "20260831T185825.967808Z-latency-15022b4bff0241de99e22db72cf2d1e0",
+   "episode_id": "gpt-08-latency-c",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "tool_alpha": "tool_beta",
+    "tool_beta": "tool_alpha",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "tool_alpha",
+    "tool_beta",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "tool_alpha",
+   "chosen_label": "tool_alpha",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 302,
+    "completion_tokens": 26,
+    "total_tokens": 328
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:02:08.763370+00:00",
+   "error": null
+  },
+  {
+   "seq": 55,
+   "treatment": "ANON",
+   "regime": "connection_error",
+   "arm": "A",
+   "rep": 0,
+   "instance_dir": "20260831T185235.345174Z-connection_error-e4b927073af3402e8572f05724d42cba",
+   "episode_id": "sonnet-05-connection-a",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "route-G3": "tool_alpha",
+    "route-J5": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-G3",
+    "route-J5",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-G3",
+   "chosen_label": "route-G3",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 20004.16,
+   "completion": false,
+   "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 48,
+    "total_tokens": 101
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:02:11.272486+00:00",
+   "error": null
+  },
+  {
+   "seq": 56,
+   "treatment": "ANON",
+   "regime": "connection_error",
+   "arm": "A",
+   "rep": 1,
+   "instance_dir": "20260831T185215.335422Z-connection_error-be2ea017e0374a65bd9fac96c71e2476",
+   "episode_id": "gemini-04-connection-a",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "route-M2": "tool_alpha",
+    "route-N8": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-N8",
+    "route-M2",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-M2",
+   "chosen_label": "route-M2",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 39,
+    "total_tokens": 92
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:02:13.217519+00:00",
+   "error": null
+  },
+  {
+   "seq": 57,
+   "treatment": "ANON",
+   "regime": "connection_error",
+   "arm": "A",
+   "rep": 2,
+   "instance_dir": "20260831T184616.873165Z-connection_error-578364c68f7944e3961f3b703ab79e90",
+   "episode_id": "gpt-01-connection-a",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "route-H5": "tool_alpha",
+    "route-M4": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-M4",
+    "route-H5",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-H5",
+   "chosen_label": "route-H5",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 54,
+    "total_tokens": 107
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:02:15.428531+00:00",
+   "error": null
+  },
+  {
+   "seq": 58,
+   "treatment": "ANON",
+   "regime": "connection_error",
+   "arm": "B",
+   "rep": 0,
+   "instance_dir": "20260831T185819.396650Z-connection_error-eab1f93ae04c4b278e371411bd482af1",
+   "episode_id": "sonnet-08-connection-b",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "route-T4": "tool_alpha",
+    "route-N2": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-T4",
+    "route-N2",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-T4",
+   "chosen_label": "route-T4",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 20001.53,
+   "completion": false,
+   "usage": {
+    "prompt_tokens": 309,
+    "completion_tokens": 50,
+    "total_tokens": 359
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:02:21.388771+00:00",
+   "error": null
+  },
+  {
+   "seq": 59,
+   "treatment": "ANON",
+   "regime": "connection_error",
+   "arm": "B",
+   "rep": 1,
+   "instance_dir": "20260831T185809.583525Z-connection_error-703ed0cd4ba34609b23476c28e4787db",
+   "episode_id": "gemini-07-connection-b",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "route-H9": "tool_alpha",
+    "route-R2": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-R2",
+    "route-H9",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-H9",
+   "chosen_label": "route-H9",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 309,
+    "completion_tokens": 45,
+    "total_tokens": 354
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:02:25.142679+00:00",
+   "error": null
+  },
+  {
+   "seq": 60,
+   "treatment": "ANON",
+   "regime": "connection_error",
+   "arm": "B",
+   "rep": 2,
+   "instance_dir": "20260831T185822.205654Z-connection_error-99d41c9b2bfb4dfdab9e3d8c5cab42f7",
+   "episode_id": "gpt-07-connection-b",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "route-H7": "tool_alpha",
+    "route-K5": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-K5",
+    "route-H7",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-H7",
+   "chosen_label": "route-H7",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 309,
+    "completion_tokens": 43,
+    "total_tokens": 352
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:02:31.198170+00:00",
+   "error": null
+  },
+  {
+   "seq": 61,
+   "treatment": "ANON",
+   "regime": "connection_error",
+   "arm": "C",
+   "rep": 0,
+   "instance_dir": "20260831T184611.526635Z-connection_error-818d4d5faaf040339c586d32bda3bfd9",
+   "episode_id": "sonnet-02-connection-c",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "route-H4": "tool_alpha",
+    "route-R8": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-H4",
+    "route-R8",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-R8",
+   "chosen_label": "route-R8",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 7,
+    "total_tokens": 318
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:02:33.645777+00:00",
+   "error": null
+  },
+  {
+   "seq": 62,
+   "treatment": "ANON",
+   "regime": "connection_error",
+   "arm": "C",
+   "rep": 1,
+   "instance_dir": "20260831T184132.820730Z-connection_error-5236d441c7a84f339f276b9342b5c2c2",
+   "episode_id": "gemini-00-connection-c",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "route-T6": "tool_alpha",
+    "route-P3": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-P3",
+    "route-T6",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-T6",
+   "chosen_label": "route-T6",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 310,
+    "completion_tokens": 7,
+    "total_tokens": 317
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:02:35.816800+00:00",
+   "error": null
+  },
+  {
+   "seq": 63,
+   "treatment": "ANON",
+   "regime": "connection_error",
+   "arm": "C",
+   "rep": 2,
+   "instance_dir": "20260831T185245.321702Z-connection_error-da14b322da5e4acbb51fd056d16126e9",
+   "episode_id": "gpt-04-connection-c",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "route-P8": "tool_alpha",
+    "route-K9": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-K9",
+    "route-P8",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-P8",
+   "chosen_label": "route-P8",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 309,
+    "completion_tokens": 7,
+    "total_tokens": 316
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:02:37.456793+00:00",
+   "error": null
+  },
+  {
+   "seq": 64,
+   "treatment": "ANON",
+   "regime": "http_error",
+   "arm": "A",
+   "rep": 0,
+   "instance_dir": "20260831T184605.590061Z-http_error-a7a95ce1bc094467a17939e9e48c0333",
+   "episode_id": "sonnet-01-http-a",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "route-G9": "tool_alpha",
+    "route-G5": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-G5",
+    "route-G9",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-G5",
+   "chosen_label": "route-G5",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 19999.55,
+   "completion": false,
+   "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 49,
+    "total_tokens": 102
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:02:38.778944+00:00",
+   "error": null
+  },
+  {
+   "seq": 65,
+   "treatment": "ANON",
+   "regime": "http_error",
+   "arm": "A",
+   "rep": 1,
+   "instance_dir": "20260831T185812.843948Z-http_error-7582e370cae04de1800c2b2c8c204202",
+   "episode_id": "gemini-08-http-a",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "route-T2": "tool_alpha",
+    "route-J5": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-J5",
+    "route-T2",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-T2",
+   "chosen_label": "route-T2",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 20000.46,
+   "completion": false,
+   "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 87,
+    "total_tokens": 140
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:02:40.980805+00:00",
+   "error": null
+  },
+  {
+   "seq": 66,
+   "treatment": "ANON",
+   "regime": "http_error",
+   "arm": "A",
+   "rep": 2,
+   "instance_dir": "20260831T185242.556137Z-http_error-4a26be8c1f1544cdae4e3f81901a3202",
+   "episode_id": "gpt-03-http-a",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "route-P3": "tool_alpha",
+    "route-Q6": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-P3",
+    "route-Q6",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-P3",
+   "chosen_label": "route-P3",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 20000.399999999998,
+   "completion": false,
+   "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 60,
+    "total_tokens": 113
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:02:44.248946+00:00",
+   "error": null
+  },
+  {
+   "seq": 67,
+   "treatment": "ANON",
+   "regime": "http_error",
+   "arm": "B",
+   "rep": 0,
+   "instance_dir": "20260831T185232.053229Z-http_error-9264bf3bbaba4fcca965e7e3439d2b1f",
+   "episode_id": "sonnet-04-http-b",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "route-G8": "tool_alpha",
+    "route-G3": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-G3",
+    "route-G8",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-G3",
+   "chosen_label": "route-G3",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 19999.61,
+   "completion": false,
+   "usage": {
+    "prompt_tokens": 309,
+    "completion_tokens": 37,
+    "total_tokens": 346
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:02:46.542955+00:00",
+   "error": null
+  },
+  {
+   "seq": 68,
+   "treatment": "ANON",
+   "regime": "http_error",
+   "arm": "B",
+   "rep": 1,
+   "instance_dir": "20260831T184600.801008Z-http_error-23620c91881c439e9e1d4896355b5327",
+   "episode_id": "gemini-02-http-b",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "route-K3": "tool_alpha",
+    "route-T2": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-T2",
+    "route-K3",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-K3",
+   "chosen_label": "route-K3",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 20000.530000000002,
+   "completion": false,
+   "usage": {
+    "prompt_tokens": 309,
+    "completion_tokens": 48,
+    "total_tokens": 357
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:02:49.157113+00:00",
+   "error": null
+  },
+  {
+   "seq": 69,
+   "treatment": "ANON",
+   "regime": "http_error",
+   "arm": "B",
+   "rep": 2,
+   "instance_dir": "20260831T185253.254475Z-http_error-cd809250caf34184b505f86887f82927",
+   "episode_id": "gpt-06-http-b",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "route-G9": "tool_alpha",
+    "route-K6": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-G9",
+    "route-K6",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-G9",
+   "chosen_label": "route-G9",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 20000.7,
+   "completion": false,
+   "usage": {
+    "prompt_tokens": 309,
+    "completion_tokens": 39,
+    "total_tokens": 348
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:02:51.867258+00:00",
+   "error": null
+  },
+  {
+   "seq": 70,
+   "treatment": "ANON",
+   "regime": "http_error",
+   "arm": "C",
+   "rep": 0,
+   "instance_dir": "20260831T185816.622740Z-http_error-b98e37d0b56f4206aac441219446b89d",
+   "episode_id": "sonnet-07-http-c",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "route-M7": "tool_alpha",
+    "route-T7": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-T7",
+    "route-M7",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-M7",
+   "chosen_label": "route-M7",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 310,
+    "completion_tokens": 7,
+    "total_tokens": 317
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:02:55.189046+00:00",
+   "error": null
+  },
+  {
+   "seq": 71,
+   "treatment": "ANON",
+   "regime": "http_error",
+   "arm": "C",
+   "rep": 1,
+   "instance_dir": "20260831T185218.607392Z-http_error-35372e0e87ee472a9850ac0588b2e10e",
+   "episode_id": "gemini-05-http-c",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "route-M2": "tool_alpha",
+    "route-P9": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-P9",
+    "route-M2",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-P9",
+   "chosen_label": "route-P9",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 311,
+    "completion_tokens": 7,
+    "total_tokens": 318
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:02:56.974134+00:00",
+   "error": null
+  },
+  {
+   "seq": 72,
+   "treatment": "ANON",
+   "regime": "http_error",
+   "arm": "C",
+   "rep": 2,
+   "instance_dir": "20260831T184157.428498Z-http_error-e2e4359e72b54e558050c9770c424b58",
+   "episode_id": "gpt-00-http-c",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "route-H6": "tool_alpha",
+    "route-M9": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-H6",
+    "route-M9",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-M9",
+   "chosen_label": "route-M9",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 309,
+    "completion_tokens": 7,
+    "total_tokens": 316
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:02:58.410149+00:00",
+   "error": null
+  },
+  {
+   "seq": 73,
+   "treatment": "ANON",
+   "regime": "latency",
+   "arm": "A",
+   "rep": 0,
+   "instance_dir": "20260831T185238.137325Z-latency-88d42ef619e346edb71a61b76e4e1645",
+   "episode_id": "sonnet-06-latency-a",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "route-Q7": "tool_alpha",
+    "route-G9": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-Q7",
+    "route-G9",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-Q7",
+   "chosen_label": "route-Q7",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 63,
+    "total_tokens": 116
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:03:00.222285+00:00",
+   "error": null
+  },
+  {
+   "seq": 74,
+   "treatment": "ANON",
+   "regime": "latency",
+   "arm": "A",
+   "rep": 1,
+   "instance_dir": "20260831T184553.940023Z-latency-2464acdcf64d403dbdcc5db70bc4cdcd",
+   "episode_id": "gemini-01-latency-a",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "route-N3": "tool_alpha",
+    "route-N5": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-N3",
+    "route-N5",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-N3",
+   "chosen_label": "route-N3",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 301.2,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 29,
+    "total_tokens": 82
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:03:03.487356+00:00",
+   "error": null
+  },
+  {
+   "seq": 75,
+   "treatment": "ANON",
+   "regime": "latency",
+   "arm": "A",
+   "rep": 2,
+   "instance_dir": "20260831T185248.573128Z-latency-456d4b6585d24291ba691b8bc0a64b55",
+   "episode_id": "gpt-05-latency-a",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "route-G7": "tool_alpha",
+    "route-M9": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-G7",
+    "route-M9",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-G7",
+   "chosen_label": "route-G7",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 302.51000000000005,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 76,
+    "total_tokens": 129
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:03:06.672346+00:00",
+   "error": null
+  },
+  {
+   "seq": 76,
+   "treatment": "ANON",
+   "regime": "latency",
+   "arm": "B",
+   "rep": 0,
+   "instance_dir": "20260831T184142.328270Z-latency-1097de72c93342fe96468c969577f7ee",
+   "episode_id": "sonnet-00-latency-b",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "route-Q9": "tool_alpha",
+    "route-Q8": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-Q9",
+    "route-Q8",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-Q9",
+   "chosen_label": "route-Q9",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 312,
+    "completion_tokens": 49,
+    "total_tokens": 361
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:03:09.815393+00:00",
+   "error": null
+  },
+  {
+   "seq": 77,
+   "treatment": "ANON",
+   "regime": "latency",
+   "arm": "B",
+   "rep": 1,
+   "instance_dir": "20260831T185221.473441Z-latency-bb2001aa71bd472a80a2b63725e4e0a5",
+   "episode_id": "gemini-06-latency-b",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "route-T5": "tool_alpha",
+    "route-J5": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-T5",
+    "route-J5",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-T5",
+   "chosen_label": "route-T5",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 301.21999999999997,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 308,
+    "completion_tokens": 36,
+    "total_tokens": 344
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:03:11.774306+00:00",
+   "error": null
+  },
+  {
+   "seq": 78,
+   "treatment": "ANON",
+   "regime": "latency",
+   "arm": "B",
+   "rep": 2,
+   "instance_dir": "20260831T184622.974919Z-latency-253670f892fe43db92615d8474c66d32",
+   "episode_id": "gpt-02-latency-b",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "route-P4": "tool_alpha",
+    "route-P7": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-P4",
+    "route-P7",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-P4",
+   "chosen_label": "route-P4",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 302.23,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 310,
+    "completion_tokens": 45,
+    "total_tokens": 355
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:03:13.518394+00:00",
+   "error": null
+  },
+  {
+   "seq": 79,
+   "treatment": "ANON",
+   "regime": "latency",
+   "arm": "C",
+   "rep": 0,
+   "instance_dir": "20260831T185227.654647Z-latency-c56bb3e117684eba938586f50235c060",
+   "episode_id": "sonnet-03-latency-c",
+   "source_model": "claude-sonnet-5",
+   "faulted_tool": "tool_beta",
+   "label_to_physical": {
+    "route-N3": "tool_alpha",
+    "route-R4": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-N3",
+    "route-R4",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-N3",
+   "chosen_label": "route-N3",
+   "chosen_physical": "tool_alpha",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 307,
+    "completion_tokens": 7,
+    "total_tokens": 314
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:03:16.624635+00:00",
+   "error": null
+  },
+  {
+   "seq": 80,
+   "treatment": "ANON",
+   "regime": "latency",
+   "arm": "C",
+   "rep": 1,
+   "instance_dir": "20260831T185211.922194Z-latency-9df8fd11d36c45f89f6869f4c2642ff2",
+   "episode_id": "gemini-03-latency-c",
+   "source_model": "gemini-3.7-flash",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "route-K2": "tool_alpha",
+    "route-M5": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-K2",
+    "route-M5",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-M5",
+   "chosen_label": "route-M5",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 308,
+    "completion_tokens": 34,
+    "total_tokens": 342
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:03:17.988603+00:00",
+   "error": null
+  },
+  {
+   "seq": 81,
+   "treatment": "ANON",
+   "regime": "latency",
+   "arm": "C",
+   "rep": 2,
+   "instance_dir": "20260831T185825.967808Z-latency-15022b4bff0241de99e22db72cf2d1e0",
+   "episode_id": "gpt-08-latency-c",
+   "source_model": "gpt-5.6-sol",
+   "faulted_tool": "tool_alpha",
+   "label_to_physical": {
+    "route-R7": "tool_alpha",
+    "route-J3": "tool_beta",
+    "wait": "wait"
+   },
+   "shown_options": [
+    "route-R7",
+    "route-J3",
+    "wait"
+   ],
+   "status": "ok",
+   "attempts": 1,
+   "raw_reply": "route-J3",
+   "chosen_label": "route-J3",
+   "chosen_physical": "tool_beta",
+   "parse": "exact",
+   "regret": 0.0,
+   "completion": true,
+   "usage": {
+    "prompt_tokens": 308,
+    "completion_tokens": 7,
+    "total_tokens": 315
+   },
+   "response_model": "gpt-6-luna",
+   "finish_reason": "stop",
+   "called_at": "2026-11-06T08:03:20.149662+00:00",
+   "error": null
+  }
+ ]
+}

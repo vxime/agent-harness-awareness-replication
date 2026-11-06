@@ -1,0 +1,162 @@
+{
+ "n_records": 81,
+ "n_ok": 81,
+ "n_failed": 0,
+ "stopped_reason": null,
+ "parse_counts": {
+  "exact": 81,
+  "token": 0,
+  "unparseable": 0
+ },
+ "wait_choices": 0,
+ "max_attempts": 1,
+ "response_models": [
+  "gpt-6-luna"
+ ],
+ "first_call_at": "2026-11-06T07:59:55.554764+00:00",
+ "last_call_at": "2026-11-06T08:03:20.149662+00:00",
+ "tokens": {
+  "prompt": 17844,
+  "completion": 2937,
+  "total": 20781
+ },
+ "cost_usd_tracked_prices": 0.0070932,
+ "rep": {
+  "A": {
+   "mean_regret": 6734.303333333333,
+   "completions": 6,
+   "n": 9,
+   "paper_mean": 6734.3,
+   "paper_completions": 6
+  },
+  "B": {
+   "mean_regret": 6734.0233333333335,
+   "completions": 6,
+   "n": 9,
+   "paper_mean": 8956.37,
+   "paper_completions": 5
+  },
+  "C": {
+   "mean_regret": 0.0,
+   "completions": 9,
+   "n": 9,
+   "paper_mean": 0.0,
+   "paper_completions": 9
+  }
+ },
+ "rep_verdict": "PATTERN_REPLICATED",
+ "rep_agreement_with_archived": {
+  "A": [
+   9,
+   9
+  ],
+  "B": [
+   8,
+   9
+  ],
+  "C": [
+   9,
+   9
+  ],
+  "all": [
+   26,
+   27
+  ]
+ },
+ "arm_means": {
+  "REP": {
+   "A": {
+    "mean_regret": 6734.303333333333,
+    "completions": 6
+   },
+   "B": {
+    "mean_regret": 6734.0233333333335,
+    "completions": 6
+   },
+   "C": {
+    "mean_regret": 0.0,
+    "completions": 9
+   }
+  },
+  "SWAP": {
+   "A": {
+    "mean_regret": 6700.948888888888,
+    "completions": 6
+   },
+   "B": {
+    "mean_regret": 2255.76,
+    "completions": 8
+   },
+   "C": {
+    "mean_regret": 0.0,
+    "completions": 9
+   }
+  },
+  "ANON": {
+   "A": {
+    "mean_regret": 8956.475555555555,
+    "completions": 5
+   },
+   "B": {
+    "mean_regret": 8956.202222222222,
+    "completions": 5
+   },
+   "C": {
+    "mean_regret": 0.0,
+    "completions": 9
+   }
+  }
+ },
+ "attribution": {
+  "n_S": {
+   "REP": 10,
+   "SWAP": 10,
+   "ANON": 10
+  },
+  "default_REP": [
+   10,
+   10
+  ],
+  "labelFollow_SWAP": [
+   10,
+   10
+  ],
+  "physFollow_SWAP": [
+   0,
+   10
+  ],
+  "physDefault_ANON": [
+   10,
+   10
+  ],
+  "regret_S": {
+   "REP": 12121.494,
+   "SWAP": 0.0,
+   "ANON": 12121.494
+  },
+  "firstShare": {
+   "REP": [
+    10,
+    18
+   ],
+   "SWAP": [
+    12,
+    18
+   ],
+   "ANON": [
+    12,
+    18
+   ]
+  },
+  "C_SWAP_badbeta": {
+   "n": 4,
+   "mean_regret": 0.0
+  },
+  "C_mean_regret": {
+   "REP": 0.0,
+   "SWAP": 0.0,
+   "ANON": 0.0
+  },
+  "verdict": "MIXED_OR_UNDECIDABLE"
+ }
+}
